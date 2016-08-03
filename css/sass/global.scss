@@ -1,18 +1,14 @@
+/* FONDOS */
 .bg-white{
 	background-color: whitesmoke;
 	height: 500px;
-	margin: 3% 0;
-}
-
-header{
-	height: 64px;
+	margin: 5% 0;
 }
 .fondo-fixed{
   background-attachment: fixed;
   background-repeat: no-repeat;
   max-width: 100%;  
 }
-
 .modulo-alto {
   min-height: 100vh;
   text-align: center;
@@ -32,12 +28,18 @@ header{
 	max-width: 100%;
 	margin: 1% 0;
 }
-.foto{
-	width: 300px;
-	max-width:  100%;
-	max-height: 100%;
-	border-radius: 50%;
+.bg-habilidades{
+	background-image: url(../img/php-code.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 477px;
+	height: 100%;
+	max-width: 100%;
 }
+
+/* FONDOS */
+
+/* TITULOS */
 .title{
 	font-family: 'Indie Flower', cursive;
 	color: whitesmoke;
@@ -59,23 +61,27 @@ header{
 	width: 100%;
 }
 
-.habil:hover{
+
+/* TITULOS */
+
+/* imgenes */
+.foto{
+	width: 300px;
+	max-width:  100%;
+	max-height: 100%;
+	border-radius: 50%;
+}
+.habil{
+	background-color: rgba(97, 97, 98, 0.5);
+	:hover{
 	background-color: rgba(145, 145, 145, 0.5);
-	
+	}
 }
 .logos{
 	width: 100px;
 	height: 100px;
 	display: inline-block;
 	margin: 3%;
-}
-.bg-habilidades{
-	background-image: url(../img/php-code.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	max-height: 477px;
-	height: 100%;
-	max-width: 100%;
 }
 .imgfooter{
 	background-image: url(../img/1233969_10201366418417917_506639273_n.jpg);
@@ -90,6 +96,14 @@ header{
     max-width: 273px;
     width: 150%;
 }
+/* imgenes */
+
+
+
+header{
+	height: 64px;
+}
+
 nav{
 	position: fixed;
 	top:0;
@@ -100,11 +114,9 @@ nav{
 	}
 }
 .work1{
-	background-image: url(../img/IMAGENES-TRABAJOS/meetup.png);
-	background-size: cover;
-	background-repeat: no-repeat;
 	height: 477px;
 	max-height: 100%;
+	margin: 3% 0;
 	opacity: 0.7;
 	:hover{
 		opacity: 1;
@@ -139,51 +151,28 @@ nav{
 	max-height: 100%;
 }
 
-
-
-.size{
-	position: relative;
-	height: 500px;
-	margin: 2% 0;
-}
-
-/* Effect 5: same word slide in */
-.cl-effect-5 a {
-	overflow: hidden;
-	padding: 0 4px;
-	height: 1em;
-}
-
-.efecto a li {
-	position: relative;
-	display: inline-block;
-	-webkit-transition: -webkit-transform 0.3s;
-	-moz-transition: -moz-transform 0.3s;
-	transition: transform 0.3s;
-}
-
-.efecto a li::before {
-	position: absolute;
-	top: 100%;
-	content: attr(data-hover);
-	font-weight: 700;
-	-webkit-transform: translate3d(0,0,0);
-	-moz-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-
-.efecto a:hover li,
-.efecto a:focus li {
-	-webkit-transform: translateY(-100%);
-	-moz-transform: translateY(-100%);
-	transform: translateY(-100%);
-}
-
-/* Effect 5: same word slide in and border bottom */
-
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     position: relative;
     min-height: 1px;
     padding-right: 0px;
     padding-left: 0px;
+}
+
+.carousel .carousel-item img {
+    width: auto;
+    opacity: 0.7;
+    margin-bottom: 3%;
+    :hover{
+		opacity: 1;
+    }
+}
+#proyectos{
+	margin-bottom: 3%;
+}
+.carousel .carousel-item a img {
+    opacity: 0.7;
+    margin-bottom: 3%;
+    :hover{
+		opacity: 1;
+    }
 }
