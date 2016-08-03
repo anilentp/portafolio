@@ -1,7 +1,14 @@
 $( document ).ready(function(){
 	$(".button-collapse").sideNav();
 	$('.carousel.carousel-slider').carousel({full_width: true});
-	 $('.parallax').parallax();
+  // Next slide
+  $('.carousel').carousel('next');
+  
+  // Previous slide
+  $('.carousel').carousel('prev');
+  
+  
+
 /*
 	 var options = [
     {selector: '.habilidad', offset: 200, callback: customCallbackFunc } },

@@ -8,13 +8,14 @@
 	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Icon Font-->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 	<link rel="shortcut icon" href="img/favicontransparente.png">
+	<link rel="icon" type="image/png" href="img/favicontransparente.png">
 	<link rel="stylesheet" href="css/main.css">
 	<!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -24,7 +25,7 @@
 		<nav>
 		    <div class="efecto nav-wrapper">
 		      	<a href="#ppal" class="brand-logo"><img class="logo" src="logo2.png" alt=""></a>
-		      	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="ion-navicon-round"></i></a>
 			    <ul class="right hide-on-med-and-down">
 			    	<li><a href="#ppal">Inicio</a></li>
 			        <li><a href="#aboutme">Sobre Mí</a></li>
@@ -58,8 +59,8 @@
 			<p class="text">En Laboratoria, nos han brindado un apoyo técnico y personal, que no te dan en lugares” más formales”, aprendí cosas tan importantes y variadas, desde usar Git, hasta trabajar en equipo con chicas que jamás había cruzado una palabra, y que de todo lo aprendido y experimentado, salga algo tan genial, como trabajos ganadores de hackathones o bien, o personas que se transforman en equipo y amigas.</p>
 		</div>
 	</section><!--Listo!-->
-	<section class="bg-habilidades col-md-12 fondo-fixed modulo-alto" id="habilidades">
-		<div class="container-fluid col-md-12 fondo-fixed modulo-alto bg-dark">
+	<section class="dp-table bg-habilidades col-md-12 fondo-fixed modulo-alto" id="habilidades">
+		<div class="dp-table container-fluid col-md-12 fondo-fixed modulo-alto bg-dark">
 			<h3 class="title center-align">Habilidades</h3>
 
 			<div class="row mg-l">
@@ -92,8 +93,7 @@
 			</div>
 		</div>
 	</section><!--Listo!-->
-	<section class="col-md-12 bg-white" id="proyectos">
-		
+	<section class="col-md-12 slider" id="proyectos">
 			<div class="carousel carousel-slider center" data-indicators="true">
 				<h4 class="title1 align-center">Proyectos</h4>
 			<!--Trabajo MEET UP-->
@@ -102,7 +102,7 @@
 			      		<h2 class="proyect">MeetTheFront</h2>
 			      	</a>
 			      	<a href="http://natuchasca.github.io/meetup">
-			      		<img class="work img-responsive" src="img/IMAGENES-TRABAJOS/meetup.png" alt="Responsive image">
+			      		<img class="work" src="img/IMAGENES-TRABAJOS/meetup.png" alt="">
 			      	</a>
 			      	<div class="carousel-fixed-item center">
 	      				<a href="http://natuchasca.github.io/meetup" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver más...</a>
@@ -111,46 +111,57 @@
 			<!--Trabajo EXAMEN INDIVIDUAL-->
 			    <div class="carousel-item white about">
 			      	<a class="proyect" href="http://anilentp.github.io/evaluacion-individual" target="_blank">
-			      		<h2 class="proyect">Examen Individual</h2>
+			      		<h2 class="proyect">Examen Individual "Marca Personal"</h2>
 			      	</a>
-			      	<a href="http://natuchasca.github.io/meetup">
-			      		<img class="work img-responsive" src="img/IMAGENES-TRABAJOS/meetup.png" alt="Responsive image">
+			      	<a href="http://anilentp.github.io/evaluacion-individual">
+			      		<img class="work" src="img/IMAGENES-TRABAJOS/examen individual.png" alt="">
 			      	</a>
 			      	<div class="carousel-fixed-item center">
-	      				<a href="http://natuchasca.github.io/meetup" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver más...</a>
+	      				<a href="http://anilentp.github.io/evaluacion-individual" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver más...</a>
 	    			</div>
 			    </div>
 			<!--Trabajo USER TESTING-->
 			   <div class="carousel-item white about">
-			      	<a class="proyect" href="http://natuchasca.github.io/meetup" target="_blank">
-			      		<h2 class="proyect">MeetTheFront</h2>
+			      	<a class="proyect" href="http://anilentp.github.io/user-testing" target="_blank">
+			      		<h2 class="proyect">User Testing</h2>
 			      	</a>
-			      	<a href="http://natuchasca.github.io/meetup">
-			      		<img class="work img-responsive" src="img/IMAGENES-TRABAJOS/meetup.png" alt="Responsive image">
+			      	<a href="http://anilentp.github.io/user-testing">
+			      		<img class="work" src="img/IMAGENES-TRABAJOS/usertesting.png" alt="">
 			      	</a>
 			      	<div class="carousel-fixed-item center">
-	      				<a href="http://natuchasca.github.io/meetup" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver más...</a>
+	      				<a href="http://anilentp.github.io/user-testing" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver más...</a>
 	    			</div>
 			    </div>
 			<!--Trabajo LA REPUBLICA-->
 			    <div class="carousel-item white about">
-			      	<a class="proyect" href="http://natuchasca.github.io/meetup" target="_blank">
-			      		<h2 class="proyect">MeetTheFront</h2>
+			      	<a class="proyect" href="http://sigridmonsalve.github.io/LaRepublica" target="_blank">
+			      		<h2 class="proyect">Réplica diario "La Republica.pe" </h2>
 			      	</a>
-			      	<a href="http://natuchasca.github.io/meetup">
-			      		<img class="work img-responsive" src="img/IMAGENES-TRABAJOS/meetup.png" alt="Responsive image">
+			      	<a href="http://sigridmonsalve.github.io/LaRepublica">
+			      		<img class="work" src="img/IMAGENES-TRABAJOS/La republica.png" alt="">
 			      	</a>
 			      	<div class="carousel-fixed-item center">
-	      				<a href="http://natuchasca.github.io/meetup" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver más...</a>
+	      				<a href="http://sigridmonsalve.github.io/LaRepublica" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver más...</a>
+	    			</div>
+			    </div>
+			<!--Trabajo Movies-->
+			   <div class="carousel-item white about">
+			      	<a class="proyect" href="http://anilentp.github.io/movies" target="_blank">
+			      		<h2 class="proyect">Cine Blah!</h2>
+			      	</a>
+			      	<a href="http://anilentp.github.io/movies">
+			      		<img class="work" src="img/IMAGENES-TRABAJOS/usertesting.png" alt="">
+			      	</a>
+			      	<div class="carousel-fixed-item center">
+	      				<a href="http://anilentp.github.io/movies" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver más...</a>
 	    			</div>
 			    </div>
 			</div>    
-		
 	</section>
 	<footer class="imgfooter col-md-12 fondo-fixed modulo-alto" id="contactos">
 		<div class="container-fluid col-md-12 fondo-fixed modulo-alto bg-dark">
 			<div class="row">
-				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque fugiat reiciendis totam, sunt velit quis iste doloribus enim, rem cum qui rerum nihil perspiciatis. Soluta velit porro quaerat vitae laudantium.</div>
+				<div class="pull-right contact"></div>
 			</div>
 		</div>
 	</footer>
