@@ -125,6 +125,82 @@
 	border-radius: 50%;
 	}
 }
+.calendar{
+	background-color:#08A778;
+	color:white;
+	:hover{
+		background-color:rgba(98, 92, 92, 0.7);
+	}
+}
+.contactame{
+	font-family: 'Indie Flower', cursive;
+	display: inline;
+	color:whitesmoke;
+	margin:15% 10%;
+	float:right;
+	text-align:right;
+	a{
+		color: whitesmoke;
+	}
+	.icono{
+		display: inline;
+	}
+	ul li{
+		display: inline-block;
+		font-size: 27px;
+		margin: 2% 0;
+		:hover{
+			background-color: rgba(197, 197, 197, 0.8);
+			color: black;
+		}
+	}
+	.btn-large i {
+    font-size: 2.2rem;
+	}
+}
+.twitter{
+	background-color:#15B1EA;
+	color:white;
+	:hover{
+		background-color:rgba(98, 92, 92, 0.7);
+	}
+}
+.linkedin{
+	background-color:#4593B1;
+	color:white;
+	:hover{
+		background-color:rgba(98, 92, 92, 0.7);
+	}
+}
+.github{
+	background-color:#2D2727;
+	color:white;
+	:hover{
+		background-color:rgba(98, 92, 92, 0.7);
+	}
+}
+
+.redes{
+	background-color:#353535;
+	color:white;
+	:hover{
+		background-color:rgba(98, 92, 92, 0.7);
+	}
+}
+.phone{
+	background-color:#0EC800;
+	color:white;
+	:hover{
+		background-color:rgba(98, 92, 92, 0.7);
+	}
+}
+.mail{
+	background-color:#FF3014;
+	color:white;
+	:hover{
+		background-color:rgba(98, 92, 92, 0.7);
+	}
+}
 .logos{
 	max-width: 150px;
 	width: 100%;
